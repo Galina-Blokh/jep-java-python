@@ -2,7 +2,7 @@ import jep.Interpreter;
 import jep.JepConfig;
 import jep.MainInterpreter;
 
-public class CallDocScript {
+public class JepForPython39 {
     public static void main(String[] args) {
         
         // set path for jep executing python3.9
@@ -23,10 +23,6 @@ public class CallDocScript {
         System.out.println(subInterp.getValue("res_spacy"));
         
         //II
-        subInterp.eval("res_tf = p.run_tf_simple_check()");
-        System.out.println( subInterp.getValue("type(res_tf)"));
-        
-        //III
         subInterp.eval("res_c = p.get_c_path('.idea','*.xml')");
         System.out.println(subInterp.getValue("res_c"));
 
