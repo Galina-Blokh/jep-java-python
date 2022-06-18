@@ -30,3 +30,18 @@ public class JepForPython38 {
         }
     }
 }
+/*
+/Users/galinablokh/.pyenv/versions/3.8.6/envs/jepy/lib/python3.8/site-packages
+[Apple, Apple, PROPN, NNP, nsubj, Xxxxx, true, false]
+[is, be, AUX, VBZ, aux, xx, true, true]
+[looking, look, VERB, VBG, ROOT, xxxx, true, false]
+[at, at, ADP, IN, prep, xx, true, true]
+[buying, buy, VERB, VBG, pcomp, xxxx, true, false]
+[U.K., U.K., PROPN, NNP, dobj, X.X., false, false]
+[startup, startup, VERB, VBD, dep, xxxx, true, false]
+[for, for, ADP, IN, prep, xxx, true, true]
+[$, $, SYM, $, quantmod, $, false, false]
+[1, 1, NUM, CD, compound, d, false, false]
+[billion, billion, NUM, CD, pobj, xxxx, true, false]
+*\
+ */
