@@ -1,7 +1,6 @@
 import glob
 import os
 
-import tensorflow as tf
 import spacy
 
 def get_c_path(pathlib, extension):
@@ -9,17 +8,9 @@ def get_c_path(pathlib, extension):
     return path_list
 
 
-def run_tf_simple_check():
-    return tf.reduce_sum(tf.random.normal([-1000, 1000]))
-
-
 def run_spacy_nlp(sentence):
     nlp = spacy.load("en_core_web_sm")
     doc = nlp(sentence)
     return [(token.text, token.lemma_, token.pos_, token.tag_,
              token.dep_, token.shape_, token.is_alpha, token.is_stop) for token in doc]
-
-if __name__ == '__main__':
-    print(os.path.expanduser('nerEnv/bigid_ner_model'))
-    # print(get_c_path('./.idea','*.xml'))
 
