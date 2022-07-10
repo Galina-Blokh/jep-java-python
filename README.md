@@ -1,19 +1,7 @@
-# jep-java-python
-example of calling python from java
+# Jep-Java-Python
+### All set up instructions are described in the article
 
-PYTHONPATH=/Users/galinablokh/.pyenv/versions/3.8.6/envs/jepy
-CLASSIFICATIONS_SDK_PYTHON=/Users/galinablokh/.pyenv/versions/3.8.6/envs/jepy/lib/python3.8/site-packages
-DYLD_LIBRARY_PATH=/Users/galinablokh/.pyenv/versions/3.8.6/envs/jepy/lib/python3.8/site-packages/jep
+https://towardsdatascience.com/how-to-execute-python-modules-from-java-2384041a3d6d
 
-
-export PYTHONPATH="/Users/galinablokh/.pyenv/versions/3.8.6/envs/jepy"
-
-export DYLD_LIBRARY_PATH="/Users/galinablokh/.pyenv/versions/3.8.6/envs/jepy/lib/python3.8/site-packages/jep"$DYLD_LIBRARY_PATH
-
-LD_LIBRARY_PATH
-
-apache-maven-3.8.1
-
-MACos Monterey Chip:Apple M1 Pro 12.4
 
 
